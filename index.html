@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Web Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Verdana', sans-serif;
+            font-size: 3em;
+            color: #4A90E2;
+            margin-top: 50px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #FF6347; /* Tomato color */
+        }
+
+        .color-change {
+            color: #32CD32; /* Lime green color */
+        }
+
+        .size-change {
+            font-size: 1.5em;
+            color: #FF4500; /* Orange red */
+        }
+
+        .font-change {
+            font-family: 'Courier New', monospace;
+            color: #8A2BE2; /* Blue violet */
+        }
+
+        .sample-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border: 5px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
 <body>
 
-<h1>My First Heading</h1>
+<header>
+    <h1>Welcome to My Styled Page</h1>
+</header>
 
-<p>My first paragraph.</p>
+<section>
+    <p class="highlight">This is some highlighted text in tomato color.</p>
+    <p class="color-change">Here we have some lime green colored text.</p>
+    <p class="size-change">This text has a larger font size and an orange-red color.</p>
+    <p class="font-change">This paragraph uses a different font and a blue-violet color.</p>
+</section>
+
+<section>
+    <h2>Sample Image</h2>
+    <img src="https://via.placeholder.com/600x400" alt="Sample Image" class="sample-image">
+</section>
 
 </body>
 </html>
+
